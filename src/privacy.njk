@@ -1,0 +1,25 @@
+---
+title: Privacy and Imprint
+layout: base.njk
+translation: /de/datenschutz
+---
+
+
+<div class="container p-10 lg:p-0">
+<div class="block p-5">
+<h1 class="text-2xl" >Privacy and imprint</h1>
+<p>
+This Page has not been translated yet.
+Please visit the following page <a href="/de/datenschutz" class="btn btn-outline">Datenschutz</a>
+</p>
+
+</div>
+
+<script>
+function decEm(){
+    let em = document.getElementById("EM");
+    let ema = atob("Y29saW5AaXVzYWJsZS5jaA==");
+    em.innerHTML = "<b>E-Mail:</b> <a href='mailto:" + ema +"'>" + ema +"</a>";
+    em.classList = "text-primary text-xl my-5";
+}
+</script>

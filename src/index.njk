@@ -1,0 +1,23 @@
+---
+title: Hello and Welcome!
+layout: base.njk
+translation: /de/
+---
+<div>
+  <h1>Example Blogposts</h1>
+      {%- for post in collections.featured | reverse-%}
+        <div class="card compact card-bordered my-5">
+          <div class="card-body">
+            <p class="">{{ post.data.date | postDate }}</p>
+            <h2 class="card-title">{{ post.data.title }}</h2>
+            <p>
+              {{ post.data.excerpt }}
+            </p>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="/blog/{{post.data.slug}}">Read more</a>
+            </div>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
