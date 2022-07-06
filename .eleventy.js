@@ -16,8 +16,8 @@ module.exports = function (eleventyConfig) {
     title: "title",
     description: "description",
     url: "https://example",
-    author: "Colin Carter",
-    twitter: "colin_r_carter",
+    author: "author",
+    twitter: "twitter",
     image: "/img/social.jpg",
     options: {
       titleStyle: "minimalistic",
