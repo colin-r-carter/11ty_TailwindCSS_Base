@@ -19,3 +19,4 @@ Tool Lizenz Tailwind CSS [MIT](https://github.com/tailwindlabs/tailwindcss/blob/
 daisyUI [MIT](https://github.com/saadeghi/daisyui/blob/master/LICENSE)
 11ty (eleventy) [MIT](https://github.com/11ty/eleventy/blob/master/LICENSE)
 Luxon [MIT](https://github.com/moment/luxon/blob/master/LICENSE.md)
+Eleventy Plugin SEO [MIT](https://github.com/artstorm/eleventy-plugin-seo/blob/develop/LICENSE)
